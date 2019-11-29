@@ -1,0 +1,38 @@
+server:
+  servlet:
+    context-path: /cmfz
+    jsp:
+      init-parameters:
+        development: true
+  port: 8989
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://39.107.43.228:3306/cmfz?serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+    view:
+      suffix: /
+      prefix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB
+      enabled: true #开启
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.124.201:9300
+mybatis:
+  mapper-locations: classpath:com/zz/cmfz/*Mapper.xml
+  type-aliases-package: com.zz.cmfz.entity
+pagehelper:
+  support-methods-arguments: true
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: true
