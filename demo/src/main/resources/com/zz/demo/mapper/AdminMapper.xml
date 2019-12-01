@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zz.demo.dao.AdminDao">
+    <resultMap id="AdminMapper" type="Admin">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="phone" property="phone"/>
+        <result column="status" property="status"/>
+        <result column="creat_time" property="creatTime"/>
+        <result column="last_time" property="lastTime"/>
+    </resultMap>
+    <insert id="add">
+        insert into admin(id, username, password, name, phone, status, creat_time, last_time)
+        VALUES (#{id}, #{username}, #{password}, #{name}, #{phone}, #{status}, sysdate(), sysdate())
+    </insert>
+    <select id="showAll" resultMap="AdminMapper">
+        SELECT id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               creat_time,
+               last_time
+        FROM admin
+    </select>
+    <select id="showOneForId" resultMap="AdminMapper">
+        SELECT id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               creat_time,
+               last_time
+        FROM admin
+        where id = #{id}
+    </select>
+    <update id="upd">
+        update admin
+        <set>
+            <if test="username!=null">
+                username = #{username},
+            </if>
+            <if test="password!=null">
+                password = #{password},
+            </if>
+            <if test="name!=null">
+                name = #{name},
+            </if>
+            <if test="phone!=null">
+                phone = #{phone},
+            </if>
+            <if test="status!=null">
+                status = #{status},
+            </if>
+            last_time = sysdate()
+        </set>
+        where id = #{id}
+    </update>
+    <delete id="del">
+        delete from admin where id in
+        <foreach collection="array" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+    <select id="showOneForStr" resultMap="AdminMapper">
+        SELECT id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               creat_time,
+               last_time
+        FROM admin
+        where username = #{username}
+           or name = #{name}
+    </select>
+    <select id="showOneForPhone" resultMap="AdminMapper">
+        SELECT id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               creat_time,
+               last_time
+        FROM admin
+        where phone = #{phone}
+    </select>
+</mapper>

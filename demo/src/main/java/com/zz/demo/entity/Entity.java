@@ -12,7 +12,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 public class Entity {
-    private String id;
-    private Date creatTime;
-    private Date lastTime;
+    private String id;          //ID,唯一标识
+    private Date creatTime;     //创建时间
+    private Date lastTime;      //上一次登陆时间
 }
