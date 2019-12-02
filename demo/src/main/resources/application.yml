@@ -1,6 +1,6 @@
 server:
   servlet:
-    context-path: /cmfz
+    context-path: /zz
     jsp:
       init-parameters:
         development: true

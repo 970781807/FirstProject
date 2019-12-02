@@ -20,4 +20,5 @@ public class Admin extends Entity {
     private Integer status;     //状态
     private Date creatTime;     //创建时间
     private Date lastTime;      //上一次登陆时间
+    private String salt;        //盐值
 }

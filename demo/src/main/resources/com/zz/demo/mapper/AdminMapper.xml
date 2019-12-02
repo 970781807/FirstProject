@@ -8,12 +8,13 @@
         <result column="name" property="name"/>
         <result column="phone" property="phone"/>
         <result column="status" property="status"/>
+        <result column="salt" property="salt"/>
         <result column="creat_time" property="creatTime"/>
         <result column="last_time" property="lastTime"/>
     </resultMap>
     <insert id="add">
-        insert into admin(id, username, password, name, phone, status, creat_time, last_time)
-        VALUES (#{id}, #{username}, #{password}, #{name}, #{phone}, #{status}, sysdate(), sysdate())
+        insert into admin(id, username, password, name, phone, status, salt, creat_time, last_time)
+        VALUES (#{id}, #{username}, #{password}, #{name}, #{phone}, #{status}, #{salt}, sysdate(), sysdate())
     </insert>
     <select id="showAll" resultMap="AdminMapper">
         SELECT id,
@@ -22,6 +23,7 @@
                name,
                phone,
                status,
+               salt,
                creat_time,
                last_time
         FROM admin
@@ -33,6 +35,7 @@
                name,
                phone,
                status,
+               salt,
                creat_time,
                last_time
         FROM admin
@@ -73,11 +76,13 @@
                name,
                phone,
                status,
+               salt,
                creat_time,
                last_time
         FROM admin
         where username = #{username}
            or name = #{name}
+           or phone = #{phone}
     </select>
     <select id="showOneForPhone" resultMap="AdminMapper">
         SELECT id,
@@ -86,6 +91,7 @@
                name,
                phone,
                status,
+               salt,
                creat_time,
                last_time
         FROM admin

@@ -57,6 +57,7 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public Admin edit(String oper, Admin admin, String[] ids) {
+
         return null;
     }
 }
