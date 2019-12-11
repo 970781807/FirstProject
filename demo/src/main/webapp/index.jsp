@@ -1,0 +1,159 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="boot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="boot/css/indexStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="js/jquery.min.js"></script>
+    <script src="boot/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<div class="container-fluid">
+    <!--title-->
+    <!--导航栏-->
+    <nav class="navbar navbar-default" id="window-title">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div id="nav-1" class="nav-1">
+            <div class="navbar-header" id="button-hbox-father">
+                <button type="button" id="buttons-hbox" class="navbar-toggle collapsed"
+                        data-target="#bs-example-navbar-collapse-0" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" id="navbar-title"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-0">
+                <ul class="nav navbar-nav">
+                    <li class="slide1"></li>
+                    <li class="slide2"></li>
+                    <li><a class="active" href="#/">网站首页</a></li>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#/">公司简介</a></li>
+                    <li><a href="javascript:$('#centerBody').load('/zz/home.html')">成功案例</a></li>
+                    <li><a href="#/">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <!--app-->
+    <div class="container-fluid" id="home-body">
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail imglist">
+                    <img src="images/logo.png" alt="Website" class="img-rounded">
+                    <p class="img-test ">Website</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/github.png" alt="Github" class="img-rounded">
+                    <p class="img-test ">Github</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/email.png" alt="Contact me" class="img-rounded">
+                    <p class="img-test ">Contact me</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/tip.png" alt="About me" class="img-rounded">
+                    <p class="img-test ">About me</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/javascript.jpg" alt="More" class="img-rounded">
+                    <p class="img-test ">More</p>
+                </a>
+            </div>
+
+
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail imglist">
+                    <img src="images/logo.png" alt="Website" class="img-rounded">
+                    <p class="img-test ">Website</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/github.png" alt="Github" class="img-rounded">
+                    <p class="img-test ">Github</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/email.png" alt="Contact me" class="img-rounded">
+                    <p class="img-test ">Contact me</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/tip.png" alt="About me" class="img-rounded">
+                    <p class="img-test ">About me</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/javascript.jpg" alt="More" class="img-rounded">
+                    <p class="img-test ">More</p>
+                </a>
+            </div>
+
+
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail imglist">
+                    <img src="images/logo.png" alt="Website" class="img-rounded">
+                    <p class="img-test ">Website</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/github.png" alt="Github" class="img-rounded">
+                    <p class="img-test ">Github</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/email.png" alt="Contact me" class="img-rounded">
+                    <p class="img-test ">Contact me</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/tip.png" alt="About me" class="img-rounded">
+                    <p class="img-test ">About me</p>
+                </a>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" style="  border: 0px;">
+                <a href="#" class="thumbnail  imglist">
+                    <img src="images/javascript.jpg" alt="More" class="img-rounded">
+                    <p class="img-test ">More</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script src="boot/js/indexScript.js"></script>
+
+
+</body>
+</html>
