@@ -65,7 +65,7 @@ function f() {
 
 function buttonsHbox() {
     var width = $(document).width();
-    $("#bs-example-navbar-collapse-0").css("display", "none");
+
     if (width <= 768) {
         $("#button-hbox-father").width(width - 10);
         $("#nav-1 .nav").css("border-radius", 0);
@@ -73,12 +73,23 @@ function buttonsHbox() {
         $("#nav-1 .slide2").css("border-radius", 0);
         title.css("display", "block");
         title.html($("#nav-1 .nav").find(".active").html());
+        $(".img-rounded").width(60).height(60);
+
     } else {
         $("#nav-1 .nav").css("border-radius", "10em");
         $("#nav-1 .slide1").css("border-radius", "10em");
         $("#nav-1 .slide2").css("border-radius", "10em");
         title.css("display", "none");
+        if (width <= 970) {
+            $(".img-rounded").width(80).height(80);
+        } else if (width <= 1170) {
+            $(".img-rounded").width(90).height(90);
+        } else {
+            $(".img-rounded").width(100).height(100);
+        }
     }
+    $("#bs-example-navbar-collapse-0").css("display", "none");
+
 }
 
 $(window).resize(function () {          //当浏览器大小变化时
