@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zz.demo.dao.AppDao">
+    <resultMap id="AppMap" type="App">
+        <id property="id" column="id"/>
+        <result property="appName" column="app_name"/>
+        <result property="href" column="href"/>
+        <result property="img" column="img"/>
+        <result property="about" column="about"/>
+        <result property="author" column="author"/>
+        <result property="careatTime" column="careat_time"/>
+        <result property="lastTime" column="last_time"/>
+    </resultMap>
+    <select id="showAll" resultMap="AppMap">
+        select id,
+               app_name,
+               href,
+               img,
+               about,
+               author,
+               careat_time,
+               last_time
+        from apps
+    </select>
+    <insert id="add">
+        insert into apps(app_name, href, img, about, author, careat_time, last_time)
+        values (#{appName}, #{href}, #{img}, #{about}, #{author}, sysdate(), sysdate())
+    </insert>
+</mapper>

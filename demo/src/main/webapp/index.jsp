@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script src="js/jquery.min.js"></script>
     <script src="boot/js/bootstrap.min.js"></script>
+    <script src="boot/js/indexScriptFront.js"></script>
 
 
 </head>
@@ -36,11 +37,18 @@
                 <ul class="nav navbar-nav">
                     <li class="slide1"></li>
                     <li class="slide2"></li>
-                    <li><a class="active" href="#/">网站首页</a></li>
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="#/">公司简介</a></li>
-                    <li><a href="javascript:$('#centerBody').load('/zz/home.html')">成功案例</a></li>
-                    <li><a href="#/">联系我们</a></li>
+                    <li><a class="active" href="javascript:void(0);"
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll')">网站首页</a></li>
+                    <li><a href="javascript:void(0);"
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppHOME')">HOME</a></li>
+                    <li><a href="javascript:void(0);"
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppMY')">个人简介</a></li>
+                    <li><a href="javascript:void(0);"
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppSUCCESS')"
+                           id="success">成功案例</a></li>
+                    <li><a href="javascript:void(0);"
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTACT')">联系方式</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -52,71 +60,8 @@
 
         <div class="row">
             <div class="col-md-1 col-lg-1"></div>
-            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 AppList">
 
-
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail imglist">
-                        <img src="images/logo.png" alt="Website" class="img-rounded">
-                        <p class="img-test ">Website</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/github.png" alt="Github" class="img-rounded">
-                        <p class="img-test ">Github</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/email.png" alt="Contact me" class="img-rounded">
-                        <p class="img-test ">Contact me</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/tip.png" alt="About me" class="img-rounded">
-                        <p class="img-test ">About me</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/javascript.jpg" alt="More" class="img-rounded">
-                        <p class="img-test ">More</p>
-                    </a>
-                </div>
-
-
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail imglist">
-                        <img src="images/logo.png" alt="Website" class="img-rounded">
-                        <p class="img-test ">Website</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/github.png" alt="Github" class="img-rounded">
-                        <p class="img-test ">Github</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/email.png" alt="Contact me" class="img-rounded">
-                        <p class="img-test ">Contact me</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/tip.png" alt="About me" class="img-rounded">
-                        <p class="img-test ">About me</p>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
-                    <a href="#" class="thumbnail  imglist">
-                        <img src="images/javascript.jpg" alt="More" class="img-rounded">
-                        <p class="img-test ">More</p>
-                    </a>
-                </div>
 
                 <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
                     <a href="#" class="thumbnail imglist">

@@ -1,7 +1,9 @@
 package com.zz.demo;
 
 import com.zz.demo.dao.AdminDao;
+import com.zz.demo.dao.AppDao;
 import com.zz.demo.entity.Admin;
+import com.zz.demo.entity.App;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,8 @@ import java.util.UUID;
 public class DemoApplicationTests {
     @Autowired
     private AdminDao adminDao;
+    @Autowired
+    private AppDao appDao;
     @Test
     public void contextLoads() {
         Admin admin = new Admin ( );
@@ -60,5 +64,21 @@ public class DemoApplicationTests {
     public void showOneForStr() {
         Admin admin = adminDao.showOneForStr ("15522827278");
         System.out.println ("admin = " + admin);
+    }
+
+    @Test
+    public void addApp() {
+        App app = new App ( );
+        app.setAppName ("GitHub");
+        app.setAbout ("My GitHub");
+        app.setHref ("https://github.com/970781807");
+        app.setAuthor ("周臻");
+        app.setImg ("images/github");
+        System.out.println (app);
+        appDao.add (app);
+        List<App> apps = appDao.showAll ( );
+        for (App app1 : apps) {
+            System.out.println ("app1 = " + app1);
+        }
     }
 }

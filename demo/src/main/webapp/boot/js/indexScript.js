@@ -108,5 +108,6 @@ $("#buttons-hbox").on("click", function () {
         box.hide(500);
     }
 });
+
 f();
 buttonsHbox();
