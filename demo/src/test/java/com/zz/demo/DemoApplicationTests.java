@@ -73,7 +73,7 @@ public class DemoApplicationTests {
         app.setAbout ("My GitHub");
         app.setHref ("https://github.com/970781807");
         app.setAuthor ("周臻");
-        app.setImg ("images/github");
+        app.setImg ("images/github.png");
         System.out.println (app);
         appDao.add (app);
         List<App> apps = appDao.showAll ( );

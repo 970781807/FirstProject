@@ -18,6 +18,8 @@ public class App {
     private String img;
     private String about;
     private String author;
+    private int status;
+    private int type;
     private Date careatTime;
     private Date lastTime;
 }

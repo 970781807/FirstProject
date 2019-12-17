@@ -8,6 +8,8 @@
         <result property="img" column="img"/>
         <result property="about" column="about"/>
         <result property="author" column="author"/>
+        <result property="status" column="status"/>
+        <result property="type" column="type"/>
         <result property="careatTime" column="careat_time"/>
         <result property="lastTime" column="last_time"/>
     </resultMap>
@@ -18,12 +20,15 @@
                img,
                about,
                author,
+               `status`,
+               type,
                careat_time,
                last_time
         from apps
     </select>
     <insert id="add">
-        insert into apps(app_name, href, img, about, author, careat_time, last_time)
-        values (#{appName}, #{href}, #{img}, #{about}, #{author}, sysdate(), sysdate())
+        insert into apps(app_name, href, img, about, author, `status`, type, careat_time, last_time)
+        values (#{appName}, #{href}, #{img}, #{about}, #{author}, #{status,jdbcType=TINYINT}, #{type,jdbcType=TINYINT},
+                sysdate(), sysdate())
     </insert>
 </mapper>
