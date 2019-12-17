@@ -21,7 +21,7 @@ public class AppSUCCESS implements AppShowAll {
     @Transactional(propagation = Propagation.SUPPORTS)
     public PageMap<App> showAll(Integer pageNum, Integer pageSize) {
         PageHelper.startPage (0, 4);
-        List<App> apps = appDao.showAll ( );
+        List<App> apps = appDao.showForType (0);
         PageMap<App> pageMap = new PageMap<> (apps);
         return pageMap;
     }

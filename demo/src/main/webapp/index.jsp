@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="boot/css/indexStyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <script src="js/jquery.min.js"></script>
+    <script src="boot/js/jquery.min.js"></script>
     <script src="boot/js/bootstrap.min.js"></script>
     <script src="boot/js/indexScriptFront.js"></script>
 
@@ -48,6 +48,9 @@
                            id="success">成功案例</a></li>
                     <li><a href="javascript:void(0);"
                            onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTACT')">联系方式</a>
+                    </li>
+                    <li><a href="javascript:void(0);"
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTROLLER')">控制台</a>
                     </li>
                 </ul>
             </div>
@@ -105,7 +108,21 @@
 
 </div>
 
-
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+        </div>
+    </div>
+</div>
 <script src="boot/js/indexScript.js"></script>
 
 

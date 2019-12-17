@@ -26,6 +26,23 @@
                last_time
         from apps
     </select>
+    <select id="showForType" resultMap="AppMap">
+        select id,
+        app_name,
+        href,
+        img,
+        about,
+        author,
+        status,
+        type,
+        careat_time,
+        last_time
+        from apps
+        where type in
+        <foreach collection="array" item="type" open="(" close=")" separator=",">
+            #{type}
+        </foreach>
+    </select>
     <insert id="add">
         insert into apps(app_name, href, img, about, author, `status`, type, careat_time, last_time)
         values (#{appName}, #{href}, #{img}, #{about}, #{author}, #{status,jdbcType=TINYINT}, #{type,jdbcType=TINYINT},

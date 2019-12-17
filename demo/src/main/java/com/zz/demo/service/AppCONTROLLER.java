@@ -10,16 +10,16 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Service("AppHOME")
+@Service("AppCONTROLLER")
 @Transactional
-public class AppHOME implements AppShowAll {
+public class AppCONTROLLER implements AppShowAll {
     @Autowired
     private AppDao appDao;
 
     @Override
     public PageMap<App> showAll(Integer pageNum, Integer pageSize) {
         PageHelper.startPage (0, 4);
-        List<App> apps = appDao.showForType (1);
+        List<App> apps = appDao.showForType (0, 1, 2);
         PageMap<App> pageMap = new PageMap<> (apps);
         return pageMap;
     }
