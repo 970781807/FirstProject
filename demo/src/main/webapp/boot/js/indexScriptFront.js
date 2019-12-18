@@ -33,6 +33,5 @@ function apps(a) {
 function app_load(x) {
     var modal = $("#myModal");
     modal.modal('toggle');
-
     $("#myModal .modal-body").load(x);
 }
