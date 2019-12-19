@@ -50,7 +50,8 @@
                            onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTACT')">联系方式</a>
                     </li>
                     <li><a href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTROLLER')">控制台</a>
+                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTROLLER')"
+                           id="AppCONTROLLER">控制台</a>
                     </li>
                 </ul>
             </div>

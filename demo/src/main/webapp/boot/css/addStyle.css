@@ -1,0 +1,13 @@
+#imgShow {
+    width: 100px;
+    height: 100px;
+}
+
+#imgFile {
+    display: none;
+}
+
+#img_div {
+    width: 100px;
+    height: 100px;
+}

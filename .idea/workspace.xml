@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3f4a87-a95b-4adf-b821-8282cbb6b1a0" name="Default Changelist" comment="">
+    <list default="true" id="7f3f4a87-a95b-4adf-b821-8282cbb6b1a0" name="Default Changelist" comment="添加应用模型">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/images/add_black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_annotation_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_base_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_web_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_goeasy_goeasy_sdk_0_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,52 +77,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppShowAll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppHOME.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppSUCCESS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="363">
+              <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="33" column="96" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="1430">
+              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,46 +127,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="42" column="101" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="101" />
+            <state relative-caret-position="311">
+              <caret line="52" column="128" selection-start-line="52" selection-start-column="128" selection-end-line="52" selection-end-column="128" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/PageMap.java">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="99">
+              <caret line="122" column="26" lean-forward="true" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/DemoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="203">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
-                <element signature="e#387#388#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,6 +163,7 @@
         <option value="mapper" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -178,17 +178,24 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="周臻" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Entity.java" />
         <option value="$PROJECT_DIR$/demo/src/main/resources/com.zz.mapper/AdminMapper.xml" />
@@ -213,23 +220,31 @@
         <option value="$PROJECT_DIR$/demo/src/main/webapp/home/select.html" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/home.html" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AppDao.java" />
-        <option value="$PROJECT_DIR$/demo/src/test/java/com/zz/demo/DemoApplicationTests.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/PageMap.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppShowAll.java" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/test/java/com/zz/demo/DemoApplicationTests.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppSUCCESS.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppHOME.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/home.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/frozenui.css" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AppDao.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/add.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" />
       </list>
     </option>
   </component>
@@ -247,16 +262,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -279,9 +284,105 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,7 +395,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576510070751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576675780364" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -303,20 +405,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.zz.demo.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\source\FirstProject\demo\src\main\java\com\zz\demo\util" />
-      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\js" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp" />
-      <recent name="D:\source\FirstProject\demo\src\main\webapp\css" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\css" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp\images" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\js" />
+      <recent name="D:\source\FirstProject\demo\src\main\java\com\zz\demo\util" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\images" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\app" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp" />
       <recent name="D:\source\FirstProject\demo\src\main\resources\com\zz\demo\mapper" />
     </key>
@@ -419,8 +523,8 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zz.demo.DemoApplication" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -438,8 +542,8 @@
         <item itemvalue="JUnit.DemoApplicationTests.addApp" />
         <item itemvalue="JUnit.DemoApplicationTests.showOneForStr" />
         <item itemvalue="JUnit.DemoApplicationTests.updAdmin" />
-        <item itemvalue="JUnit.DemoApplicationTests.AddAdmin" />
         <item itemvalue="JUnit.DemoApplicationTests.delAdmin" />
+        <item itemvalue="JUnit.DemoApplicationTests.AddAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -468,7 +572,18 @@
       <workItem from="1576110809619" duration="6605000" />
       <workItem from="1576500264593" duration="2665000" />
       <workItem from="1576504385866" duration="5361000" />
-      <workItem from="1576509808012" duration="225000" />
+      <workItem from="1576509808012" duration="381000" />
+      <workItem from="1576510261831" duration="381000" />
+      <workItem from="1576543422114" duration="2504000" />
+      <workItem from="1576545946266" duration="402000" />
+      <workItem from="1576546449005" duration="8835000" />
+      <workItem from="1576586781004" duration="2317000" />
+      <workItem from="1576590512825" duration="3953000" />
+      <workItem from="1576629301915" duration="4197000" />
+      <workItem from="1576661939890" duration="540000" />
+      <workItem from="1576662612186" duration="9401000" />
+      <workItem from="1576715362794" duration="1902000" />
+      <workItem from="1576718845379" duration="2673000" />
     </task>
     <task id="LOCAL-00001" summary="刚建好的项目">
       <created>1574910969853</created>
@@ -554,43 +669,71 @@
       <option name="project" value="LOCAL" />
       <updated>1576509939486</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加应用模型">
+      <created>1576510129389</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576510129390</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改应用模型">
+      <created>1576551658727</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576551658727</updated>
+    </task>
+    <task id="LOCAL-00015" summary="前端增加add App 入口">
+      <created>1576594427385</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576594427385</updated>
+    </task>
+    <task id="LOCAL-00016" summary="前端from表单设计ing">
+      <created>1576633504231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576633504231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoApplicationTests_updAdmin - 2019.12.01 at 10h 41m 18s.xml">
-      <configuration name="DemoApplicationTests.updAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_updAdmin - 2019.12.01 at 10h 43m 03s.xml">
-      <configuration name="DemoApplicationTests.updAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_updAdmin - 2019.12.01 at 10h 59m 30s.xml">
-      <configuration name="DemoApplicationTests.updAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_updAdmin - 2019.12.01 at 11h 00m 54s.xml">
-      <configuration name="DemoApplicationTests.updAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_showOneForStr - 2019.12.01 at 11h 02m 47s.xml">
-      <configuration name="DemoApplicationTests.showOneForStr" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_showOneForStr - 2019.12.01 at 11h 03m 31s.xml">
-      <configuration name="DemoApplicationTests.showOneForStr" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_showOneForStr - 2019.12.01 at 11h 04m 25s.xml">
-      <configuration name="DemoApplicationTests.showOneForStr" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_showOneForStr - 2019.12.02 at 20h 28m 29s.xml">
-      <configuration name="DemoApplicationTests.showOneForStr" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DemoApplicationTests_addApp - 2019.12.16 at 21h 15m 03s.xml">
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 33m 03s.xml">
       <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoApplicationTests_addApp - 2019.12.16 at 21h 15m 56s.xml">
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 34m 17s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 45m 42s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 47m 15s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 49m 03s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 49m 52s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 52m 42s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 53m 19s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 54m 22s.xml">
+      <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DemoApplicationTests_addApp - 2019.12.17 at 10h 58m 48s.xml">
       <configuration name="DemoApplicationTests.addApp" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97561000" />
+    <option name="totallyTimeSpent" value="134788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,9 +745,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="952" y="-8" width="976" height="1066" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2860262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -614,13 +758,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.32939914" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" visible="true" weight="0.32939914" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32832617" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32939914" />
@@ -637,7 +781,7 @@
       <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" visible="true" weight="0.15991472" />
+      <window_info anchor="right" id="Database" order="9" weight="0.15991472" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
@@ -681,6 +825,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="刚建好的项目" />
     <MESSAGE value="添加好依赖" />
@@ -693,113 +848,14 @@
     <MESSAGE value="一个小目标，前端页面" />
     <MESSAGE value="一个小目标，前端页面改" />
     <MESSAGE value="添加应用模型" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加应用模型" />
+    <MESSAGE value="修改应用模型" />
+    <MESSAGE value="前端增加add App 入口" />
+    <MESSAGE value="前端from表单设计ing" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端from表单设计ing" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/cloud.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/compose.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/computer.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/magnifyingglass.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/mail.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/person-01.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/person-02.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/camera.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/js/custom.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/js/exploding-triangles.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/1.jpg" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/assets/img/logo.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index2.html" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="6081" column="4" selection-start-line="6081" selection-start-column="4" selection-end-line="6081" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="348" column="30" lean-forward="true" selection-start-line="348" selection-start-column="30" selection-end-line="348" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/js/script.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/img/01.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/jquery-1.8.2.min.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/home/js/jquery-1.8.2.min.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/home/img/01.png" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/home/select.html" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="78" column="6" lean-forward="true" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/css/nprogress.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/js/nprogress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="73" column="26" lean-forward="true" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -807,57 +863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding>
-            <element signature="n#a#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/zz/demo/DemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8261">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AppDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/js/index.js" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -865,103 +871,275 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/PageMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="81" column="36" lean-forward="true" selection-start-line="81" selection-start-column="36" selection-end-line="81" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="198">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="154">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/SendSms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/zz/demo/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/DemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/base.js" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/base_login.css" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/add.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/frozenui.css" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/app/home.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppShowAll.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="110">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppHOME.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AppDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppSUCCESS.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppHOME.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="42" column="101" selection-start-line="42" selection-start-column="94" selection-end-line="42" selection-end-column="101" />
+        <state relative-caret-position="531">
+          <caret line="63" column="59" lean-forward="true" selection-end-line="166" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/PageMap.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="110">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/calander.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/cancel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/edit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/email.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/github.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/javascript.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/refresh.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/tip.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/trash.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="122" column="26" lean-forward="true" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="363">
+          <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="311">
+          <caret line="52" column="128" selection-start-line="52" selection-start-column="128" selection-end-line="52" selection-end-column="128" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="1430">
+          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="33" column="96" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>

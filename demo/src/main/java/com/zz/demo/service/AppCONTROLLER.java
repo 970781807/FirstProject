@@ -19,7 +19,7 @@ public class AppCONTROLLER implements AppShowAll {
     @Override
     public PageMap<App> showAll(Integer pageNum, Integer pageSize) {
         PageHelper.startPage (0, 4);
-        List<App> apps = appDao.showForType (0, 1, 2);
+        List<App> apps = appDao.showForType (0, 1);
         PageMap<App> pageMap = new PageMap<> (apps);
         return pageMap;
     }

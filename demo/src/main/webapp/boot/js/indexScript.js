@@ -111,3 +111,4 @@ $("#buttons-hbox").on("click", function () {
 
 f();
 buttonsHbox();
+$("#AppCONTROLLER").click();
