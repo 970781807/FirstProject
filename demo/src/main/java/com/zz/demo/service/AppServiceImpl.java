@@ -23,6 +23,11 @@ public class AppServiceImpl implements AppService {
     }
 
     @Override
+    public void del(Integer id) {
+
+    }
+
+    @Override
     public void add(App app) {
         appDao.add (app);
     }

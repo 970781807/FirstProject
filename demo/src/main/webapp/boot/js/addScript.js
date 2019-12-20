@@ -1,18 +1,28 @@
 function uploadfile(x) {
-    var mydata = document.getElementById("imgFile").files[0];
-    if (mydata == null) {
-        alert("请选择上传文件!!!!");
+    var imgdata = document.getElementById("imgFile").files[0];
+    var hrefdata = document.getElementById("href_file").files[0];
+    if (imgdata == null) {
+        alert("请选择上传图片!!!!");
         return;
     }
     var formData = new FormData(); // FormData 对象
-    formData.append("file", mydata); // 文件对象
+    var href = $("#href").val()
+    if ($("#href").val() == null) {
+        if (hrefdata == null) {
+
+            alert("请选择上传文件!!!!");
+            return;
+        }
+    } else {
+        formData.append("href", href);
+    }
+    formData.append("hreffile", hrefdata); // 文件对象
+    formData.append("imgfile", imgdata); // 文件对象
     formData.append("appName", $("#appName").val());
-    formData.append("href", $("#href").val());
     formData.append("about", $("#about").val());
     formData.append("author", $("#author").val());
     formData.append("status", $("#status").val());
     formData.append("type", $("#type").val());
-    alert(formData);
     $.ajax({
         url: x + "/app/add",
         type: "post",

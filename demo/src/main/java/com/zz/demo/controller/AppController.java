@@ -38,6 +38,19 @@ public class AppController {
         return map;
     }
 
+    @RequestMapping("delete")
+    /*
+     * @Param   find      访问的app类别
+     * @return  {'code' : 200,
+     *           'data' : {'app':app}
+     *          }
+     */
+    public Map<String, Object> delete(Integer id) {
+        Map<String, Object> map = new HashMap<> ( );
+
+        return map;
+    }
+
     @RequestMapping("add")
     /*
      * @Param   find      访问的app类别
@@ -45,19 +58,15 @@ public class AppController {
      *           'data' : {'app':app}
      *          }
      */
-    public Map<String, Object> add(App app, MultipartFile file, HttpServletRequest request) {
-        String filename = "images/" + UUID.randomUUID ( ) + file.getOriginalFilename ( );
-        String path = request.getSession ( ).getServletContext ( ).getRealPath ("/") + filename;
-        File dest = new File (path);
-
-        if (!dest.getParentFile ( ).exists ( )) {
-            dest.getParentFile ( ).mkdirs ( );
-        }
-
+    public Map<String, Object> add(App app, MultipartFile imgfile, MultipartFile hreffile, HttpServletRequest request) {
         Map<String, Object> map = new HashMap<> ( );
         try {
-            app.setImg (filename);
-            file.transferTo (dest);
+            if (hreffile != null) {
+                String href = upload ("document/", request, hreffile);
+                app.setHref (href);
+            }
+            String img = upload ("div_images/", request, imgfile);
+            app.setImg (img);
             appService.add (app);
             map.put ("code", 200);
         } catch (IOException e) {
@@ -68,5 +77,17 @@ public class AppController {
             map.put ("code", 500);
         }
         return map;
+    }
+
+    private String upload(String pathfather, HttpServletRequest request, MultipartFile file) throws IOException {
+        String filename = pathfather + UUID.randomUUID ( ) + file.getOriginalFilename ( );
+        String path = request.getSession ( ).getServletContext ( ).getRealPath ("/") + filename;
+        File dest = new File (path);
+
+        if (!dest.getParentFile ( ).exists ( )) {
+            dest.getParentFile ( ).mkdirs ( );
+        }
+        file.transferTo (dest);
+        return filename;
     }
 }

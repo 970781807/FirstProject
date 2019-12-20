@@ -1,12 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <script src="boot/js/addScript.js"></script>
 <link rel="stylesheet" href="boot/css/addStyle.css">
-<div class="modal-header">
+<%--<div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
             aria-hidden="true">&times;</span>
     </button>
     <h4 class="modal-title" id="myModalLabel">Add App</h4>
-</div>
+</div>--%>
 <div class="modal-body">
     <form id="add_app" method="post" enctype="multipart/form-data">
         <div class="input-group input-group-lg container-fluid" id="img_div">
@@ -16,14 +16,9 @@
         <br>
         <div class="input-group input-group-lg">
             <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-            <input type="text" class="form-control" placeholder="AppName" id="appName" name="appName"
-                   onchange="x();alert(666)">
+            <input type="text" class="form-control" placeholder="AppName" id="appName" name="appName">
         </div>
-        <br>
-        <div class="input-group input-group-lg">
-            <span class="input-group-addon">@</span>
-            <input type="text" class="form-control" placeholder="APP链接" name="href" id="href">
-        </div>
+
         <br>
         <div class="input-group input-group-lg">
             <span class="input-group-addon">@</span>
@@ -51,14 +46,26 @@
             <div class="col-lg-6">
                 <div class="input-group input-group-lg">
                     <span class="input-group-addon">type</span>
-                    <select class="form-control" name="type" id="type">
+                    <select class="form-control" name="type" id="type"
+                            onchange="if ($(this).val()==2){$('#href_file_div').show();$('#href_div').hide()}else{$('#href_file_div').hide();$('#href_div').show()} ">
                         <option value="0">内部应用</option>
                         <option value="1">外部链接</option>
+                        <option value="2">内部文档</option>
                     </select>
                 </div>
+                <br>
             </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
+        <div class="input-group input-group-lg" id="href_div">
+            <span class="input-group-addon">@</span>
+            <input type="text" class="form-control" placeholder="APP链接" name="href" id="href">
+        </div>
+        <div id="href_file_div" style="display: none">
+            选择上传文档：
+            <input type="file" placeholder="APP链接" name="href" id="href_file">
+        </div>
         <br>
+
         <button type="button" class="btn btn-primary btn-lg btn-block"
                 onclick="uploadfile('${pageContext.request.contextPath}'+'')">提交
         </button>

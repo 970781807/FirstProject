@@ -1,30 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3f4a87-a95b-4adf-b821-8282cbb6b1a0" name="Default Changelist" comment="添加应用模型">
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/images/add_black.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_annotation_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_base_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_web_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_goeasy_goeasy_sdk_0_3_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+    <list default="true" id="7f3f4a87-a95b-4adf-b821-8282cbb6b1a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/div_images/9a15dca8-99e3-4cdd-a55c-3692f2cffebe1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/div_images/bdd1685b-0733-4727-b57d-747f04139369timg (9).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/document/README.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/text.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/text2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/document/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/images/c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
@@ -77,49 +72,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/text.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="26" />
+            <state relative-caret-position="638">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="33" column="96" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1430">
-              <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -127,26 +110,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="52" column="128" selection-start-line="52" selection-start-column="128" selection-end-line="52" selection-end-column="128" />
+            <state relative-caret-position="399">
+              <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="122" column="26" lean-forward="true" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+            <state relative-caret-position="253">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,9 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Entity.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/resources/com.zz.mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/DemoApplication.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AdminDao.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/VerifyCodeUtil.java" />
@@ -220,8 +212,6 @@
         <option value="$PROJECT_DIR$/demo/src/main/webapp/home/select.html" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/js/index.js" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/PageMap.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppShowAll.java" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
@@ -234,17 +224,24 @@
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/frozenui.css" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AppDao.java" />
         <option value="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/add.html" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/text2.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/text.html" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/text.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config2.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" />
       </list>
     </option>
   </component>
@@ -307,39 +304,6 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,25 +312,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -395,10 +341,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576675780364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576826861079" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/src/main/webapp/ckeditor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -406,23 +353,25 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/demo/src/main/webapp/ckeditor" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zz.demo.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\source\FirstProject\demo\src\main\webapp" />
-      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\css" />
-      <recent name="D:\source\FirstProject\demo\src\main\webapp\images" />
-      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\js" />
-      <recent name="D:\source\FirstProject\demo\src\main\java\com\zz\demo\util" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\document" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\ckeditor" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp\images" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp\app" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp" />
-      <recent name="D:\source\FirstProject\demo\src\main\resources\com\zz\demo\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\ckeditor" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\js" />
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\css" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zz.demo.service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,22 +387,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DemoApplication">
-    <configuration name="DemoApplicationTests.AddAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zz.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.zz.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="AddAdmin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoApplicationTests.addApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -465,22 +398,6 @@
       <option name="PACKAGE_NAME" value="com.zz.demo" />
       <option name="MAIN_CLASS_NAME" value="com.zz.demo.DemoApplicationTests" />
       <option name="METHOD_NAME" value="addApp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoApplicationTests.delAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zz.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zz.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.zz.demo.DemoApplicationTests" />
-      <option name="METHOD_NAME" value="delAdmin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -518,6 +435,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FirstProject/demo/src/main/webapp/ckeditor/samples/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FirstProject/demo/src/main/webapp/text.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zz.demo.DemoApplication" />
@@ -530,8 +453,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DemoApplicationTests.AddAdmin" />
-      <item itemvalue="JUnit.DemoApplicationTests.delAdmin" />
+      <item itemvalue="JavaScript Debug.text.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JUnit.DemoApplicationTests.updAdmin" />
       <item itemvalue="JUnit.DemoApplicationTests.showOneForStr" />
       <item itemvalue="JUnit.DemoApplicationTests.addApp" />
@@ -539,11 +462,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.text.html" />
         <item itemvalue="JUnit.DemoApplicationTests.addApp" />
         <item itemvalue="JUnit.DemoApplicationTests.showOneForStr" />
         <item itemvalue="JUnit.DemoApplicationTests.updAdmin" />
-        <item itemvalue="JUnit.DemoApplicationTests.delAdmin" />
-        <item itemvalue="JUnit.DemoApplicationTests.AddAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +506,11 @@
       <workItem from="1576661939890" duration="540000" />
       <workItem from="1576662612186" duration="9401000" />
       <workItem from="1576715362794" duration="1902000" />
-      <workItem from="1576718845379" duration="2673000" />
+      <workItem from="1576718845379" duration="2898000" />
+      <workItem from="1576723435758" duration="5835000" />
+      <workItem from="1576742540163" duration="6635000" />
+      <workItem from="1576753488755" duration="90000" />
+      <workItem from="1576803877038" duration="11549000" />
     </task>
     <task id="LOCAL-00001" summary="刚建好的项目">
       <created>1574910969853</created>
@@ -697,7 +624,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576633504231</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="App添加模块完成">
+      <created>1576721722570</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576721722570</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,7 +667,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134788000" />
+    <option name="totallyTimeSpent" value="159122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +682,7 @@
     <frame x="952" y="-8" width="976" height="1066" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2860262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47161573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -851,110 +785,12 @@
     <MESSAGE value="修改应用模型" />
     <MESSAGE value="前端增加add App 入口" />
     <MESSAGE value="前端from表单设计ing" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端from表单设计ing" />
+    <MESSAGE value="App添加模块完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="App添加模块完成" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/PageMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AdminServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/SendSms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/test/java/com/zz/demo/DemoApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/DemoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/base.js" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/base_login.css" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/add.png">
       <provider selected="true" editor-type-id="images" />
@@ -993,13 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="12" selection-start-line="12" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="63" column="59" lean-forward="true" selection-end-line="166" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1056,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1070,76 +892,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="286">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/App.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/document/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1353">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
-          <caret line="122" column="26" lean-forward="true" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="37" selection-start-line="37" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="52" column="128" selection-start-line="52" selection-start-column="128" selection-end-line="52" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="65" column="37" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+        <state relative-caret-position="176">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="352">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/bootstrap-wysiwyg.js" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/google-code-prettify/lang-n.js" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/jquery.hotkeys.js" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/lang/en.js" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/samples/index.html" />
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/text2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/styles.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/lang/af.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/plugins/div/dialogs/div.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/text.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="123" column="58" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="33" column="96" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
+        <state relative-caret-position="253">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#6;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScript.js">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="264">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
         </state>
       </provider>
     </entry>

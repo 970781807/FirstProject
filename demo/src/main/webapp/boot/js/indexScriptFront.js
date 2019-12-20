@@ -18,11 +18,14 @@ function apps(a) {
                 if (value.type === 1) {
                     a.prop("target", "_blank");
                     a.prop("href", value.href);
-                }
-                if (value.type === 0) {
+                } else if (value.type === 0) {
                     a.prop("data-toggle", "modal");
                     a.prop("data-target", "#myModal");
-                    a.prop("href", "javascript:app_load('" + value.href + "')");
+                    a.prop("href", "javascript:app_load('" + value.href + "','" + value.appName + "')");
+                } else if (value.type === 2) {
+                    a.prop("data-toggle", "modal");
+                    a.prop("data-target", "#myModal");
+                    a.prop("href", "javascript:app_load('" + value.href + "','" + value.appName + "')");
                 } else {
                 }
                 div.append(a);
@@ -34,8 +37,9 @@ function apps(a) {
     });
 }
 
-function app_load(x) {
+function app_load(x, y) {
     var modal = $("#myModal");
     modal.modal('toggle');
+    $("#myModalLabel").html(y);
     $("#myModal .modal-body").load(x);
 }
