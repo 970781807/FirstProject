@@ -3,6 +3,7 @@ package com.zz.demo.service.user;
 import com.zz.demo.dao.UserDao;
 import com.zz.demo.entity.User;
 import com.zz.demo.util.SendSms;
+import org.apache.shiro.crypto.hash.Md5Hash;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -10,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.UUID;
 
 @Service
 @Transactional
@@ -25,6 +27,15 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void add(User user) {
+        Integer i = (int) (Math.random ( ) * 1000);
+        String salt = i.toString ( );
+        user.setSalt (salt);
+        System.out.println (salt);
+        user.setStatus (0);
+        Md5Hash md5Hash = new Md5Hash (user.getPassword ( ), salt, 1024);
+        user.setId (UUID.randomUUID ( ).toString ( ));
+        user.setPassword (md5Hash.toHex ( ));
+        System.out.println ("user = " + user);
         userDao.add (user);
     }
 
@@ -62,15 +73,14 @@ public class UserServiceImpl implements UserService {
     @Override
     public Boolean loginForPhoneSend(String phone, HttpSession session) {
         if (phone != null) {
-            User user = userDao.showOneForPhone (phone);
-            if (user != null) {
-                SendSms.send (phone, session);
-                /*发送成功*/
-                return true;
-            }
+            //User user = userDao.showOneForPhone (phone);
+            String code = SendSms.send (phone, session);
+            System.out.println (code);
+            /*发送成功*/
+            return true;
         }
         /*发送失败*/
-        return null;
+        return false;
     }
 
     @Override

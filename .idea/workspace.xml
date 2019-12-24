@@ -2,64 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3f4a87-a95b-4adf-b821-8282cbb6b1a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_starter_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_boot_web_starter_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/PermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/realm/MyWebRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/permission/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/permission/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/role/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/role/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/PermissionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/frozenui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/user/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/images/login-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/images/login-password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/images/login-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/webapp/images/login-user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/admin/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/admin/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppCONTROLLER.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppHOME.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppHOME.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppSUCCESS.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppSUCCESS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppShowAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppShowAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/SendSms.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/SendSms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/document/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/text.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/text2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/webapp/user/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/webapp/user/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,38 +66,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="47">
+              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" lean-forward="true" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-832">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="132">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -149,17 +96,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/user/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="246">
+              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
             </state>
           </provider>
         </entry>
@@ -185,6 +132,7 @@
       <find>current</find>
       <find>active</find>
       <find>nav-1</find>
+      <find>input-group-lg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,9 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/home.html" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/frozenui.css" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/AppDao.java" />
         <option value="$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AppMapper.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/add.html" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/indexStyle.css" />
@@ -225,8 +170,6 @@
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/add.jsp" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/AppCONTROLLER.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/User.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Permission.java" />
@@ -253,10 +196,15 @@
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserService.java" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/user/register.html" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/Role.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/SendSms.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css" />
         <option value="$PROJECT_DIR$/demo/src/main/webapp/user/register.jsp" />
-        <option value="$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js" />
+        <option value="$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp" />
       </list>
     </option>
   </component>
@@ -330,42 +278,7 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="realm" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -373,6 +286,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -390,6 +304,14 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="boot" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,7 +331,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577173921719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577193977275" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -432,11 +354,11 @@
       <recent name="D:\source\FirstProject\demo\src\main\webapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source\FirstProject\demo\src\main\webapp\images" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\js" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp\boot\css" />
       <recent name="D:\source\FirstProject\demo\src\main\webapp\user" />
       <recent name="D:\source\FirstProject\demo\src\main\java\com\zz\demo" />
-      <recent name="D:\source\FirstProject\demo\src\main\java\com\zz\demo\conf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zz.demo.controller" />
@@ -584,7 +506,7 @@
       <workItem from="1576753488755" duration="90000" />
       <workItem from="1576803877038" duration="11644000" />
       <workItem from="1577081899590" duration="18907000" />
-      <workItem from="1577148400595" duration="15679000" />
+      <workItem from="1577148400595" duration="27914000" />
     </task>
     <task id="LOCAL-00001" summary="刚建好的项目">
       <created>1574910969853</created>
@@ -712,7 +634,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576826950893</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="添加权限版本~~~不完全版">
+      <created>1577174057622</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577174057622</updated>
+    </task>
+    <task id="LOCAL-00020" summary="添加权限版本~~~不完全版-改好了add">
+      <created>1577175360285</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577175360285</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,7 +684,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193803000" />
+    <option name="totallyTimeSpent" value="206038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,7 +699,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17590618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -772,8 +708,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32832617" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32832617" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5472103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -868,34 +804,18 @@
     <MESSAGE value="前端from表单设计ing" />
     <MESSAGE value="App添加模块完成" />
     <MESSAGE value="可添加HTML文件到doument文件夹及访问~~~有BUG" />
-    <option name="LAST_COMMIT_MESSAGE" value="可添加HTML文件到doument文件夹及访问~~~有BUG" />
+    <MESSAGE value="添加权限版本~~~不完全版" />
+    <MESSAGE value="添加权限版本~~~不完全版-改好了add" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加权限版本~~~不完全版-改好了add" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/lang/en.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/samples/index.html" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/text2.html" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/styles.js" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/lang/af.js" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/plugins/div/dialogs/div.js" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/text.jsp" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config.js" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/ckeditor/config2.js" />
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/admin.java" />
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/app/AppCONTROLLER.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1034,13 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/AdminMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
@@ -1069,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="69" column="30" lean-forward="true" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/realm/MyWebRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
@@ -1087,29 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,27 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="84" column="26" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/AppController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
@@ -1158,31 +1020,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/tip.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/util/SendSms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/com/zz/demo/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/service/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/login-password.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/images/login-code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-end-line="1" />
+        <state relative-caret-position="455">
+          <caret line="129" column="36" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/addStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/css/register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/user/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="55" column="20" lean-forward="true" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+        <state relative-caret-position="418">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/zz/demo/conf/ShiroFilterConf.java">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/indexScriptFront.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/boot/js/addScript.js">
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/app/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="47">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
         </state>
       </provider>
     </entry>

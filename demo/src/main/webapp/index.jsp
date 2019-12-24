@@ -127,6 +127,8 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="appModal" tabindex="-1" role="dialog" aria-labelledby="appModalLabel">
+</div>
 <script src="boot/js/indexScript.js"></script>
 
 

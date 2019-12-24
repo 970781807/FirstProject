@@ -25,6 +25,7 @@ public class ShiroFilterConf {
 
         map.put ("/index.jsp", "anon");
         map.put ("/user/register.jsp", "anon");
+        map.put ("/user/**", "anon");
         map.put ("/boot/**", "anon");
         map.put ("/app/**", "anon");
         map.put ("/app/add.jsp", "anon");

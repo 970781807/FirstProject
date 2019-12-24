@@ -100,12 +100,12 @@ public class UserController {
         return map;
     }
 
-    @RequestMapping("loginForSead")
+    @RequestMapping("seadCode")
     /*
      * @Param   phone     手机
      * @return  {'code' : 200 }
      */
-    public Map loginForSead(String phone, HttpSession session) {
+    public Map seadCode(String phone, HttpSession session) {
         Map map = new HashMap<String, Object> ( );
         try {
             userService.loginForPhoneSend (phone, session);
@@ -117,22 +117,6 @@ public class UserController {
         return map;
     }
 
-    @RequestMapping("loginOut")
-    /*
-     * @Param   phone     手机
-     * @return  {'code' : 200 }
-     */
-    public Map logout(String phone, HttpSession session) {
-        Map map = new HashMap<String, Object> ( );
-        try {
-            session.removeAttribute ("user");
-            map.put ("code", "200");
-        } catch (Exception e) {
-            map.put ("code", "500");
-            e.printStackTrace ( );
-        }
-        return map;
-    }
 
     @RequestMapping("edit")
     /*

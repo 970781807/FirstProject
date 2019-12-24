@@ -15,17 +15,17 @@ function apps(a) {
                 a.prop("href", value.href);
                 a.append(img);
                 a.append(p);
-                if (value.type === 1) {
+                if (value.type === 1) {//外部链接
                     a.prop("target", "_blank");
-                    a.prop("href", value.href);
-                } else if (value.type === 0) {
+                    a.prop("href", "https://" + value.href);
+                } else if (value.type === 0) {//内部应用
                     a.prop("data-toggle", "modal");
                     a.prop("data-target", "#myModal");
-                    a.prop("href", "javascript:app_load('" + value.href + "','" + value.appName + "')");
-                } else if (value.type === 2) {
+                    a.prop("href", "javascript:app_load('" + value.href + "')");
+                } else if (value.type === 2) {//文档类
                     a.prop("data-toggle", "modal");
                     a.prop("data-target", "#myModal");
-                    a.prop("href", "javascript:app_load('" + value.href + "','" + value.appName + "',true)");
+                    a.prop("href", "javascript:document_load('" + value.href + "','" + value.appName + "',true)");
                 } else {
                 }
                 div.append(a);
@@ -37,13 +37,24 @@ function apps(a) {
     });
 }
 
-function app_load(href, title, z) {
+function app_load(href) {
+    var modal = $("#appModal");
+    modal.modal('toggle');
+    modal.load(href);
+}
+
+function document_load(href, title, size) {
     var modal = $("#myModal");
     modal.modal('toggle');
     $("#myModalLabel").html(title);
     $("#myModal .modal-body").load(href);
+    modal_size(size);
+}
+
+function modal_size(size) {
+    var modal = $("#myModal");
     var myModal_dialog = $("#myModal-dialog");
-    if (z == null) {
+    if (size == null) {
         if (modal.hasClass("bs-example-modal-lg")) {
             myModal_dialog.removeClass("modal-lg");
             modal.removeClass("bs-example-modal-lg");
@@ -51,7 +62,7 @@ function app_load(href, title, z) {
             modal.removeClass("bs-example-modal-sm");
             myModal_dialog.removeClass("modal-sm");
         }
-    } else if (z) {//大
+    } else if (size) {//大
         if (modal.hasClass("bs-example-modal-lg")) return;
         else if (modal.hasClass("bs-example-modal-sm")) {
             modal.removeClass("bs-example-modal-sm");
