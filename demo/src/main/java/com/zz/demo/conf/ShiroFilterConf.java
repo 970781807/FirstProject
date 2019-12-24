@@ -26,8 +26,7 @@ public class ShiroFilterConf {
         map.put ("/index.jsp", "anon");
         map.put ("/user/register.jsp", "anon");
         map.put ("/boot/**", "anon");
-        map.put ("/app/showAll", "anon");
-        map.put ("/app/add", "anon");
+        map.put ("/app/**", "anon");
         map.put ("/app/add.jsp", "anon");
         map.put ("/images/**", "anon");
         map.put ("/document/**", "anon");
@@ -36,7 +35,7 @@ public class ShiroFilterConf {
         map.put ("/**", "authc");
 
         filterFactoryBean.setFilterChainDefinitionMap (map);
-        filterFactoryBean.setLoginUrl ("/user/register.jsp");
+        filterFactoryBean.setLoginUrl ("/index.jsp");
 
         return filterFactoryBean;
     }
