@@ -1,4 +1,4 @@
-package com.zz.demo.service;
+package com.zz.demo.service.app;
 
 import com.zz.demo.entity.App;
 import com.zz.demo.util.PageMap;

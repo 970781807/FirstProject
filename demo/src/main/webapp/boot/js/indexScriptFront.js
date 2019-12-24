@@ -25,7 +25,7 @@ function apps(a) {
                 } else if (value.type === 2) {
                     a.prop("data-toggle", "modal");
                     a.prop("data-target", "#myModal");
-                    a.prop("href", "javascript:app_load('" + value.href + "','" + value.appName + "')");
+                    a.prop("href", "javascript:app_load('" + value.href + "','" + value.appName + "',true)");
                 } else {
                 }
                 div.append(a);
@@ -37,9 +37,35 @@ function apps(a) {
     });
 }
 
-function app_load(x, y) {
+function app_load(href, title, z) {
     var modal = $("#myModal");
     modal.modal('toggle');
-    $("#myModalLabel").html(y);
-    $("#myModal .modal-body").load(x);
+    $("#myModalLabel").html(title);
+    $("#myModal .modal-body").load(href);
+    var myModal_dialog = $("#myModal-dialog");
+    if (z == null) {
+        if (modal.hasClass("bs-example-modal-lg")) {
+            myModal_dialog.removeClass("modal-lg");
+            modal.removeClass("bs-example-modal-lg");
+        } else if (modal.hasClass("bs-example-modal-sm")) {
+            modal.removeClass("bs-example-modal-sm");
+            myModal_dialog.removeClass("modal-sm");
+        }
+    } else if (z) {//大
+        if (modal.hasClass("bs-example-modal-lg")) return;
+        else if (modal.hasClass("bs-example-modal-sm")) {
+            modal.removeClass("bs-example-modal-sm");
+            myModal_dialog.removeClass("modal-sm");
+        }
+        modal.addClass("bs-example-modal-lg");
+        myModal_dialog.addClass("modal-lg");
+    } else {//小
+        if (modal.hasClass("bs-example-modal-sm")) return;
+        else if (modal.hasClass("bs-example-modal-lg")) {
+            myModal_dialog.removeClass("modal-lg");
+            modal.removeClass("bs-example-modal-lg");
+        }
+        myModal_dialog.addClass("modal-sm");
+        modal.addClass("bs-example-modal-sm");
+    }
 }

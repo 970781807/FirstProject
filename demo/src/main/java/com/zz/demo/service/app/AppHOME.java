@@ -1,4 +1,4 @@
-package com.zz.demo.service;
+package com.zz.demo.service.app;
 
 import com.github.pagehelper.PageHelper;
 import com.zz.demo.dao.AppDao;

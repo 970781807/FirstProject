@@ -1,8 +1,8 @@
 package com.zz.demo.controller;
 
 import com.zz.demo.entity.App;
-import com.zz.demo.service.AppService;
-import com.zz.demo.service.AppShowAll;
+import com.zz.demo.service.app.AppService;
+import com.zz.demo.service.app.AppShowAll;
 import com.zz.demo.util.PageMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -13,8 +13,6 @@
     <script src="boot/js/jquery.min.js"></script>
     <script src="boot/js/bootstrap.min.js"></script>
     <script src="boot/js/indexScriptFront.js"></script>
-    <script src="//cdn.ckeditor.com/4.13.1/full/ckeditor.js"></script>
-    <%--<script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>--%>
 
 
 
@@ -115,7 +113,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog" role="document" id="myModal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span

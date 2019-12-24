@@ -1,4 +1,4 @@
-package com.zz.demo.service;
+package com.zz.demo.service.admin;
 
 import com.zz.demo.dao.AdminDao;
 import com.zz.demo.entity.Admin;

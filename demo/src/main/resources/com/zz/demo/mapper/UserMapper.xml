@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zz.demo.dao.UserDao">
+    <resultMap id="UserMapper" type="User">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="name" property="name"/>
+        <result column="phone" property="phone"/>
+        <result column="status" property="status"/>
+        <result column="salt" property="salt"/>
+        <result column="creat_time" property="creatTime"/>
+        <result column="last_time" property="lastTime"/>
+    </resultMap>
+    <select id="showAll" resultMap="UserMapper">
+        select id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               creat_time,
+               last_time,
+               salt
+        from user
+    </select>
+    <select id="showOne" resultMap="UserMapper">
+        select id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               creat_time,
+               last_time,
+               salt
+        from user
+        where name = #{name}
+    </select>
+    <insert id="add">
+        INSERT into user (id, username, password, name, phone, status, creat_time, last_time, salt)
+        VALUES (#{id}, #{username}, #{password}, #{name}, #{phone}, #{status}, sysdate(), sysdate(), #{salt})
+    </insert>
+    <update id="upd">
+        update user
+        <set>
+            <if test="username!=null">
+                username = #{username},
+            </if>
+            <if test="password!=null">
+                password = #{password},
+            </if>
+            <if test="name!=null">
+                name = #{name},
+            </if>
+            <if test="phone!=null">
+                phone = #{phone},
+            </if>
+            <if test="status!=null">
+                status = #{status},
+            </if>
+            last_time = sysdate()
+        </set>
+        where id = #{id}
+    </update>
+    <delete id="del">
+        delete from user where id in
+        <foreach collection="array" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </delete>
+    <select id="showOneForStr" resultMap="UserMapper">
+        SELECT id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               salt,
+               creat_time,
+               last_time
+        FROM user
+        where username = #{username}
+           or name = #{name}
+           or phone = #{phone}
+    </select>
+    <select id="showOneForPhone" resultMap="UserMapper">
+        SELECT id,
+               username,
+               password,
+               name,
+               phone,
+               status,
+               salt,
+               creat_time,
+               last_time
+        FROM user
+        where phone = #{phone}
+    </select>
+</mapper>

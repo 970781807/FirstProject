@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zz.demo.dao.PermissionDao">
+    <insert id="add">
+        INSERT INTO permission
+        values (#{id}, #{permission})
+    </insert>
+    <select id="showAll">
+        select id, permission
+        from permission
+    </select>
+    <select id="showPermissionsForRole">
+        SELECT p.id as id, p.permission as permission
+        from permission p
+                 join role_permission rp on p.id = rp.permission
+        where rp.role_id = #{id}
+    </select>
+</mapper>

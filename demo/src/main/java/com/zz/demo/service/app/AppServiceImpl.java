@@ -1,4 +1,4 @@
-package com.zz.demo.service;
+package com.zz.demo.service.app;
 
 import com.zz.demo.dao.AppDao;
 import com.zz.demo.entity.App;

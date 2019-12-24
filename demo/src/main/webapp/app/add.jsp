@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
-<script src="boot/js/addScript.js"></script>
-<link rel="stylesheet" href="boot/css/addStyle.css">
+<script src="../boot/js/addScript.js"></script>
+<link rel="stylesheet" href="../boot/css/addStyle.css">
 <%--<div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
             aria-hidden="true">&times;</span>
@@ -11,7 +11,7 @@
     <form id="add_app" method="post" enctype="multipart/form-data">
         <div class="input-group input-group-lg container-fluid" id="img_div">
             <input type="file" placeholder="img" id="imgFile" name="img">
-            <img src="images/add_black.png" id="imgShow" class="img-rounded" alt="添加图标">
+            <img src="../images/add_black.png" id="imgShow" class="img-rounded" alt="添加图标">
         </div>
         <br>
         <div class="input-group input-group-lg">
