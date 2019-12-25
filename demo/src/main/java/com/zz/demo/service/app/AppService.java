@@ -1,12 +1,15 @@
 package com.zz.demo.service.app;
 
 import com.zz.demo.entity.App;
-
-import java.util.List;
+import com.zz.demo.util.PageMap;
 
 public interface AppService {
-    List<App> showAll();
+    PageMap<App> showAll(Integer pageNum, Integer pageSize);
 
     void del(Integer id);
     void add(App app);
+
+    void remove(Integer id);
+
+    void reseton(Integer id);
 }

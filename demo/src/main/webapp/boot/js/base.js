@@ -108,7 +108,7 @@ var showTip = {
             '<span>' + value + '</span>' +
             '</div>';
         //添加提示框
-        $('body').append(tip);
+        $('.add-some-body').append(tip);
         //淡入提示框并震动
         $('[name="checkInputTip"]').fadeIn(20, function () {
             $('[name="checkInputTip"]').addClass('checkInputTipFallHover');
@@ -126,7 +126,7 @@ var showTip = {
             '<span>' + value + '</span>' +
             '</div>';
         //添加提示框(提示框默认状态为隐藏)
-        $('body').append(tip);
+        $('.add-some-body').append(tip);
         //淡入提示框并震动
         $('[name="checkInputTip"]').fadeIn(20, function () {
             $('[name="checkInputTip"]').addClass('checkInputSuccessTip');

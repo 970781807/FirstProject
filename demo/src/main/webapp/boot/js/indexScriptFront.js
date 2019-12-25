@@ -1,20 +1,42 @@
-function apps(a) {
+var DATA = null;
+
+function apps(a, b) {//a为href b为方式 ：0-显示 1-remove 2-reseton
+    if (DATA === null) {
+        upDATA(a, b);
+    } else {
+        setApp(a, b);
+    }
+
+
+}
+
+function upDATA(a, b) {
     $.ajax({
-        url: a,
+        url: a + "/app/showAll?find=AppHOME",
         type: "post",
         datatype: "json",
         success: function (data) {
             var list = $(".AppList");
             list.empty();
-            $.each(data.data, function (index, value) {
-                var a = $("<a>");
-                var img = $("<img src='" + value.img + "' alt='" + value.appName + "' class='img-rounded'>")
-                var p = $("<p class='img-test'>").append(value.appName);
-                var div = $("<div class='col-xs-6 col-sm-4 col-md-3 col-lg-2'>");
-                a.addClass("thumbnail").addClass("imglist");
-                a.prop("href", value.href);
-                a.append(img);
-                a.append(p);
+            DATA = data.data;
+            setApp(a, b);
+        }
+    });
+}
+
+function setApp(href, setw) {
+    var list = $(".AppList");
+    list.empty();
+    $.each(DATA, function (index, value) {
+        if (isshowwhitch(setw, value)) {
+            var a = $("<a>");
+            var img = $("<img src='" + value.img + "' alt='" + value.appName + "' class='img-rounded'>")
+            var p = $("<p class='img-test'>").append(value.appName);
+            var div = $("<div class='col-xs-6 col-sm-4 col-md-3 col-lg-2'>");
+            a.addClass("thumbnail").addClass("imglist");
+            a.prop("href", value.href);
+            //展示
+            if (setw === 0) {
                 if (value.type === 1) {//外部链接
                     a.prop("target", "_blank");
                     a.prop("href", "https://" + value.href);
@@ -28,13 +50,65 @@ function apps(a) {
                     a.prop("href", "javascript:document_load('" + value.href + "','" + value.appName + "',true)");
                 } else {
                 }
-                div.append(a);
+            }
+            //remove
+            else if (setw === 1) {
+                a.prop("href", "javascript:remove('" + value.id + "','" + href + "')");
+                img.css("border", "2px solid #ea7063");
+            }
+            //reseton
+            else if (setw === 2) {
+                a.prop("href", "javascript:reseton('" + value.id + "','" + href + "')");
+                img.css("border", "2px solid #000000");
+            }
+            a.append(img);
+            a.append(p);
 
-                list.append(div);
-            });
-            buttonsHbox();
+            div.append(a);
+
+            list.append(div);
         }
+
     });
+    buttonsHbox();
+}
+
+function isshowwhitch(c, value) {
+    if (c === 0) {
+        if (value.status === 1 || value.status === 5) return true
+    } else if (c === 1) {
+        if (value.status >= 0 && value.status <= 3) return true;
+    } else if (c === 2) {
+        if (value.status === 4) return true;
+    } else return null;
+    return false;
+}
+
+
+function remove(id, href) {
+    $.ajax({
+        url: href + "/app/remove",
+        data: {"id": id},
+        dataType: "json",
+        type: "post",
+        success: function (data) {
+            if (data.code === 500) return;
+            upDATA(href, 1);
+        }
+    })
+}
+
+function reseton(id, href) {
+    $.ajax({
+        url: href + "/app/reseton",
+        data: {"id": id},
+        dataType: "json",
+        type: "post",
+        success: function (data) {
+            if (data.code === 500) return;
+            upDATA(href, 2);
+        }
+    })
 }
 
 function app_load(href) {

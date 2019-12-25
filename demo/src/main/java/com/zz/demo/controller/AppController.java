@@ -2,7 +2,6 @@ package com.zz.demo.controller;
 
 import com.zz.demo.entity.App;
 import com.zz.demo.service.app.AppService;
-import com.zz.demo.service.app.AppShowAll;
 import com.zz.demo.util.PageMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,8 +19,6 @@ import java.util.UUID;
 @RequestMapping("app")
 public class AppController {
     @Autowired
-    private Map<String, AppShowAll> appShowAllMap;
-    @Autowired
     private AppService appService;
 
     @RequestMapping("showAll")
@@ -31,10 +28,8 @@ public class AppController {
      *           'data' : {'app':app}
      *          }
      */
-    public PageMap<App> showAll(Integer pageNum, Integer pageSize, String find) {
-        System.out.println ("find = " + find);
-        AppShowAll appShowAll = appShowAllMap.get (find);
-        PageMap<App> map = appShowAll.showAll (pageNum, pageSize);
+    public PageMap<App> showAll(Integer pageNum, Integer pageSize) {
+        PageMap<App> map = appService.showAll (pageNum, pageSize);
         return map;
     }
 
@@ -47,7 +42,51 @@ public class AppController {
      */
     public Map<String, Object> delete(Integer id) {
         Map<String, Object> map = new HashMap<> ( );
+        try {
+            appService.del (id);
+            map.put ("code", 200);
+        } catch (Exception e) {
+            e.printStackTrace ( );
+            map.put ("code", 500);
+        }
+        return map;
+    }
 
+    @RequestMapping("remove")
+    /*
+     * @Param   find      访问的app类别
+     * @return  {'code' : 200,
+     *           'data' : {'app':app}
+     *          }
+     */
+    public Map<String, Object> remove(Integer id) {
+        Map<String, Object> map = new HashMap<> ( );
+        try {
+            appService.remove (id);
+            map.put ("code", 200);
+        } catch (Exception e) {
+            e.printStackTrace ( );
+            map.put ("code", 500);
+        }
+        return map;
+    }
+
+    @RequestMapping("reseton")
+    /*
+     * @Param   find      访问的app类别
+     * @return  {'code' : 200,
+     *           'data' : {'app':app}
+     *          }
+     */
+    public Map<String, Object> reseton(Integer id) {
+        Map<String, Object> map = new HashMap<> ( );
+        try {
+            appService.reseton (id);
+            map.put ("code", 200);
+        } catch (Exception e) {
+            e.printStackTrace ( );
+            map.put ("code", 500);
+        }
         return map;
     }
 

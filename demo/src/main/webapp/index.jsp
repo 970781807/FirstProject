@@ -14,9 +14,6 @@
     <script src="boot/js/bootstrap.min.js"></script>
     <script src="boot/js/indexScriptFront.js"></script>
 
-
-
-
 </head>
 <body>
 <div class="container-fluid">
@@ -40,21 +37,13 @@
                     <li class="slide1"></li>
                     <li class="slide2"></li>
                     <li><a class="active" href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll')">网站首页</a></li>
-                    <li><a href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppHOME')">HOME</a></li>
-                    <li><a href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppMY')">个人简介</a></li>
-                    <li><a href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppSUCCESS')"
-                           id="success">成功案例</a></li>
-                    <li><a href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTACT')">联系方式</a>
-                    </li>
-                    <li><a href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}/app/showAll?find=AppCONTROLLER')"
-                           id="AppCONTROLLER">控制台</a>
-                    </li>
+                           onclick="apps('${pageContext.request.contextPath}',0)" id="AppHOME">HOME</a></li>
+                    <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',1)"
+                           id="AppREMOVE">删除模式</a></li>
+                    <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',0)"
+                           id="AppCONTROLLER">控制台</a></li>
+                    <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',2)"
+                           id="AppRECYCLE">回收站</a></li>
                 </ul>
             </div>
         </div>

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
-    <title>jQuery橙色注册表单验证代码 - 站长素材</title>
+    <title>注册</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/boot/css/frozenui.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/boot/css/register.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/boot/css/base.css"/>
@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<div class="c-title">
+<div class="c-title ">
     <div class="logo">
         <img src="${pageContext.request.contextPath}/images/tip.png" width="42" height="32" alt="">
     </div>
@@ -22,9 +22,9 @@
     </p>
 </div>
 
-<div class="c-login">
+<div class="c-login add-some-body">
     <br>
-    <form class="loginForm" id="registerFrom">
+    <form class="loginForm " id="registerFrom">
         <input type="text" class="userLogo" placeholder="请输入用户名" lay-verify="required|userName" name="username"/>
         <input type="text" class="userLogo" placeholder="请输入昵称" lay-verify="required" name="name"/>
         <input type="text" placeholder="请输入手机号码" lay-verify="phone" name="phone" id="reg_phone"/>
@@ -36,7 +36,6 @@
         <input type="button" value="注册" id="reg_btn"/>
     </form>
 </div>
-
 <script type="text/javascript" src="${pageContext.request.contextPath}/boot/js/base.js"></script>
 <script type="text/javascript">
     /**
