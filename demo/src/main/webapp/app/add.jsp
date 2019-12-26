@@ -29,8 +29,10 @@
             <input type="file" placeholder="img" id="imgFile" name="img">
             <input type="text" class=" userLogo" placeholder="AppName" id="appName" name="appName"
                    lay-verify="required">
-            <input type="text" class=" userLogo" placeholder="APP简介" name="about" id="about" lay-verify="required">
-            <input type="text" class=" userLogo" placeholder="APP作者" name="author" id="author" lay-verify="required">
+            <input type="text" class=" userLogo" placeholder="APP简介" name="about" id="about" lay-verify="required"
+                   value="我是简介">
+            <input type="text" class=" userLogo" placeholder="APP作者" name="author" id="author" lay-verify="required"
+                   value="臻人不露馅">
             <div class="row">
                 <div class="col-lg-6 col-sm-6 col-xs-6">
                     <select class="form-control" name="status" id="status">
@@ -43,8 +45,8 @@
                 <div class="col-lg-6 col-sm-6 col-xs-6">
                     <select class="form-control" name="type" id="type"
                             onchange="if ($(this).val()==2){$('#href_file_div').show();$('#href_div').hide()}else if($(this).val()==0){$('#status').val(5);}else{$('#href_file_div').hide();$('#href_div').show()} ">
-                        <option value="0">内部应用</option>
                         <option value="1">外部链接</option>
+                        <option value="0">内部应用</option>
                         <option value="2">内部文档</option>
                     </select>
                 </div><!-- /.col-lg-6 -->
@@ -73,7 +75,6 @@
         uploadfile('${pageContext.request.contextPath}' + '');
     });
     var width = $(document).width();
-    var height = $(document).height();
     var title_logo = $(".c-title .logo")
     if (width <= 768) {
         title_logo.hide();

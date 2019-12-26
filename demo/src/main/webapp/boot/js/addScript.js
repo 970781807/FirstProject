@@ -2,10 +2,12 @@ function uploadfile(x) {
     var imgdata = document.getElementById("imgFile").files[0];
     var hrefdata = document.getElementById("href_file").files[0];
     if (imgdata == null) {
-        showTip.fall("请选择上传图片");
         //alert("请选择上传文件!!!!");
-
-        return;
+        if (!confirm("您未长传图片! 是否使用默认图片")) {
+            return;
+        } else {
+            showTip.success("已使用默认图片");
+        }
     }
     var formData = new FormData(); // FormData 对象
     var href = $("#href").val();
@@ -35,6 +37,8 @@ function uploadfile(x) {
             var modal = $("#appModal");
             modal.modal('toggle');
             alert("上传成功!!!");
+            upDATA(x, 0);
+
         }
     })
 }

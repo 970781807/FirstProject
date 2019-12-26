@@ -103,9 +103,17 @@ public class AppController {
             if (hreffile != null) {
                 String href = upload ("document/", request, hreffile);
                 app.setHref (href);
+            } else if (app.getHref ( ).startsWith ("http://")) {
+                String href = app.getHref ( ).split ("http://")[1];
+                app.setHref (href);
+            } else if (app.getHref ( ).startsWith ("https://")) {
+                String href = app.getHref ( ).split ("https://")[1];
+                app.setHref (href);
             }
-            String img = upload ("div_images/", request, imgfile);
-            app.setImg (img);
+            if (imgfile != null) {
+                String img = upload ("div_images/", request, imgfile);
+                app.setImg (img);
+            } else app.setImg ("images/edit.png");
             appService.add (app);
             map.put ("code", 200);
         } catch (IOException e) {
