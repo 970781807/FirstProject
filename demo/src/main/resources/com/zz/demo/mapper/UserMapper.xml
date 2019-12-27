@@ -41,6 +41,10 @@
         INSERT into user (id, username, password, name, phone, status, creat_time, last_time, salt)
         VALUES (#{id}, #{username}, #{password}, #{name}, #{phone}, #{status}, sysdate(), sysdate(), #{salt})
     </insert>
+    <insert id="addUserRole">
+        INSERT INTO user_role
+        VALUES (#{userid}, 1)
+    </insert>
     <update id="upd">
         update user
         <set>

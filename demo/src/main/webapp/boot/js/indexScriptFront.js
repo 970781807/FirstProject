@@ -1,6 +1,7 @@
 var DATA = null;
-
+var Xhref = null;
 function apps(a, b) {//a为href b为方式 ：0-显示 1-remove 2-reseton
+    Xhref = a;
     if (DATA === null) {
         upDATA(a, b);
     } else {
@@ -10,9 +11,23 @@ function apps(a, b) {//a为href b为方式 ：0-显示 1-remove 2-reseton
 
 }
 
+function logout() {
+    $.ajax({
+        url: Xhref + "/user/logout",
+        type: "post",
+        dataType: "json",
+        success: function (data) {
+            if (data.code == 200) {
+                alert("已退出登录!!!");
+                //刷新页面
+                window.location.reload();
+            }
+        }
+    })
+}
 function upDATA(a, b) {
     $.ajax({
-        url: a + "/app/showAll?find=AppHOME",
+        url: a + "/app/showAll",
         type: "post",
         datatype: "json",
         success: function (data) {
@@ -39,7 +54,7 @@ function setApp(href, setw) {
             if (setw === 0) {
                 if (value.type === 1) {//外部链接
                     a.prop("target", "_blank");
-                    a.prop("href", "https://" + value.href);
+                    a.prop("href", "http://" + value.href);
                 } else if (value.type === 0) {//内部应用
                     a.prop("data-toggle", "modal");
                     a.prop("data-target", "#myModal");

@@ -76,7 +76,7 @@ public class DemoApplicationTests {
         app.setImg ("images/github.png");
         System.out.println (app);
         appDao.add (app);
-        List<App> apps = appDao.showAll ( );
+        List<App> apps = appDao.showAll ("0");
         for (App app1 : apps) {
             System.out.println ("app1 = " + app1);
         }

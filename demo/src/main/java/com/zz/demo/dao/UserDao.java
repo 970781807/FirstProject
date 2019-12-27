@@ -7,6 +7,8 @@ import java.util.List;
 public interface UserDao {
     void add(User user);
 
+    void addUserRole(String userid);
+
     User showOne(String name);
 
     List<User> showAll();

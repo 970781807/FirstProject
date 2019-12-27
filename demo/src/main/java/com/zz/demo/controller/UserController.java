@@ -19,7 +19,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("loginForPassword")
+    @RequestMapping("login")
     /*
      * @Param   str       用户名或账号
      * @Param   password  密码
@@ -27,16 +27,15 @@ public class UserController {
      *          }
      */
     public Map loginForPassword(String str, String password, HttpSession session) {
-        System.out.println ("str = [" + str + "], password = [" + password + "], session = [" + session + "]");
         Map map = new HashMap<String, Object> ( );
         Subject subject = SecurityUtils.getSubject ( );
         UsernamePasswordToken token = new UsernamePasswordToken (str, password);
         try {
-            subject.logout ( );
-            /*User user = userService.loginForPassword (str, password);
-            if (user == null) throw new Exception ("失败");
-            session.setAttribute ("user", user);
-            map.put ("data", user);*/
+            subject.login (token);
+            User user = userService.showOne (str);
+            if (user != null) {
+                session.setAttribute ("userid", user.getId ( ));
+            }
             map.put ("code", "200");
         } catch (Exception e) {
             map.put ("code", "500");
@@ -52,8 +51,14 @@ public class UserController {
      * */
     public Map logout() {
         Map map = new HashMap<String, Object> ( );
-        Subject subject = SecurityUtils.getSubject ( );
-        subject.logout ( );
+        try {
+            Subject subject = SecurityUtils.getSubject ( );
+            subject.logout ( );
+            map.put ("code", 200);
+        } catch (Exception e) {
+            map.put ("code", 500);
+            e.printStackTrace ( );
+        }
         return map;
     }
 
