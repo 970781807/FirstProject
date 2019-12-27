@@ -54,7 +54,7 @@ function setApp(href, setw) {
             if (setw === 0) {
                 if (value.type === 1) {//外部链接
                     a.prop("target", "_blank");
-                    a.prop("href", "https://" + value.href);
+                    a.prop("href", "http://" + value.href);
                 } else if (value.type === 0) {//内部应用
                     a.prop("data-toggle", "modal");
                     a.prop("data-target", "#myModal");

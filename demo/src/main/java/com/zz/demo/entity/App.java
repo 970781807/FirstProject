@@ -12,7 +12,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Accessors(chain = true)
 public class App {
-    private Integer id;
+    private String id;
     private String appName;
     private String href;
     private String img;
@@ -22,4 +22,5 @@ public class App {
     private int type;
     private Date careatTime;
     private Date lastTime;
+    private String userid;
 }

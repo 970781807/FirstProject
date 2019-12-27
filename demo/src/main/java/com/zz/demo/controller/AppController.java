@@ -105,6 +105,8 @@ public class AppController {
      */
     public Map<String, Object> add(App app, MultipartFile imgfile, MultipartFile hreffile, HttpServletRequest request) {
         Map<String, Object> map = new HashMap<> ( );
+        HttpSession session = request.getSession ( );
+        String userid = (String) session.getAttribute ("userid");
         try {
             if (hreffile != null) {
                 String href = upload ("document/", request, hreffile);
@@ -120,6 +122,7 @@ public class AppController {
                 String img = upload ("div_images/", request, imgfile);
                 app.setImg (img);
             } else app.setImg ("images/edit.png");
+            app.setUserid (userid);
             appService.add (app);
             map.put ("code", 200);
         } catch (IOException e) {
@@ -128,6 +131,7 @@ public class AppController {
             map.put ("message", "文件异常");
         } catch (Exception e) {
             map.put ("code", 500);
+            map.put ("message", "其他异常");
         }
         return map;
     }

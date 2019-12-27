@@ -66,8 +66,9 @@
         </foreach>
     </select>
     <insert id="add">
-        insert into apps(app_name, href, img, about, author, `status`, type, careat_time, last_time)
-        values (#{appName}, #{href}, #{img}, #{about}, #{author}, #{status,jdbcType=TINYINT}, #{type,jdbcType=TINYINT},
+        insert into apps(id, app_name, href, img, about, author, `status`, type, careat_time, last_time)
+        values (#{id}, #{appName}, #{href}, #{img}, #{about}, #{author}, #{status,jdbcType=TINYINT},
+                #{type,jdbcType=TINYINT},
                 sysdate(), sysdate())
     </insert>
     <delete id="del">
@@ -91,4 +92,8 @@
             #{id}
         </foreach>
     </update>
+    <insert id="addUserApp">
+        insert into user_apps
+        values (#{userid}, #{appid})
+    </insert>
 </mapper>

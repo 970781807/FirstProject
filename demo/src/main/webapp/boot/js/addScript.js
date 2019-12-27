@@ -36,7 +36,11 @@ function uploadfile(x) {
         success: function (data) {
             var modal = $("#appModal");
             modal.modal('toggle');
-            alert("上传成功!!!");
+            if (data.code == 200) {
+                alert("上传成功!!!");
+            } else {
+                alert(data.message);
+            }
             upDATA(x, 0);
 
         }

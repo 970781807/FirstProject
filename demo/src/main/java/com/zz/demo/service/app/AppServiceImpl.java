@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 @Transactional
@@ -36,7 +37,11 @@ public class AppServiceImpl implements AppService {
 
     @Override
     public void add(App app) {
+        String appid = UUID.randomUUID ( ).toString ( );
+        app.setId (appid);
         appDao.add (app);
+        appDao.addUserApp (app.getUserid ( ), appid);
+
     }
 
     @Override

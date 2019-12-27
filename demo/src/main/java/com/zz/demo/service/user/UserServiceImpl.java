@@ -33,10 +33,12 @@ public class UserServiceImpl implements UserService {
         System.out.println (salt);
         user.setStatus (0);
         Md5Hash md5Hash = new Md5Hash (user.getPassword ( ), salt, 1024);
-        user.setId (UUID.randomUUID ( ).toString ( ));
+        String userid = UUID.randomUUID ( ).toString ( );
+        user.setId (userid);
         user.setPassword (md5Hash.toHex ( ));
         System.out.println ("user = " + user);
         userDao.add (user);
+        userDao.addUserRole (userid);
     }
 
     @Transactional(propagation = Propagation.SUPPORTS)
