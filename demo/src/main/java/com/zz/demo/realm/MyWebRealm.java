@@ -54,7 +54,7 @@ public class MyWebRealm extends AuthorizingRealm {//权限
         String principal = (String) authenticationToken.getPrincipal ( );
         User user = userService.showOne (principal);
         if (user != null) {
-            AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo (user, user.getPassword ( ), ByteSource.Util.bytes (user.getSalt ( )), this.getName ( ));
+            AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo (user.getName ( ), user.getPassword ( ), ByteSource.Util.bytes (user.getSalt ( )), this.getName ( ));
             return authenticationInfo;
         }
         /*短信验证登录*/

@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -28,8 +29,13 @@ public class AppController {
      *           'data' : {'app':app}
      *          }
      */
-    public PageMap<App> showAll(Integer pageNum, Integer pageSize) {
-        PageMap<App> map = appService.showAll (pageNum, pageSize);
+    public PageMap<App> showAll(Integer pageNum, Integer pageSize, HttpSession session) {
+        String userid = (String) session.getAttribute ("userid");
+        /*此处应用redis缓存技术获取user */
+        if (userid == null) {
+            userid = "0";
+        }
+        PageMap<App> map = appService.showAll (pageNum, pageSize, userid);
         return map;
     }
 
@@ -90,7 +96,7 @@ public class AppController {
         return map;
     }
 
-    @RequestMapping("add")
+    @RequestMapping("add")//未登录不能访问
     /*
      * @Param   find      访问的app类别
      * @return  {'code' : 200,

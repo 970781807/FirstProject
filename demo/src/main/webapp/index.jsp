@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ taglib prefix="shiro" uri="http://shiro.apache.org/tags" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,15 +38,34 @@
                     <li class="slide1"></li>
                     <li class="slide2"></li>
                     <li><a class="active" href="javascript:void(0);"
-                           onclick="apps('${pageContext.request.contextPath}',0)" id="AppHOME">HOME</a></li>
-                    <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',1)"
-                           id="AppREMOVE">删除模式</a></li>
-                    <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',0)"
-                           id="AppCONTROLLER">控制台</a></li>
-                    <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',2)"
-                           id="AppRECYCLE">回收站</a></li>
+                           onclick="apps('${pageContext.request.contextPath}',0)" id="AppHOME">
+                        <shiro:authenticated>
+                            <shiro:principal/>
+                        </shiro:authenticated>
+                        <shiro:guest>Desktop</shiro:guest>
+                    </a></li>
+                    <shiro:authenticated>
+                        <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',1)"
+                               id="AppREMOVE">删除模式</a></li>
+                        <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',2)"
+                               id="AppRECYCLE">回收站</a></li>
+                        <li>
+                            <a href="javascript:void(0);" onclick="logout()">登出</a>
+                        </li>
+                    </shiro:authenticated>
+                    <shiro:guest>
+                        <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',0)"
+                               id="AboutMe">关于作者</a></li>
+                        <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',0)"
+                               id="CustomerFeedback">用户反馈</a></li>
+                        <li><a href="javascript:void(0);" onclick="apps('${pageContext.request.contextPath}',0)"
+                               id="AboutWebAppDesktop">使用手册</a></li>
+                    </shiro:guest>
                 </ul>
+
             </div>
+
+
         </div>
     </nav>
     <hr>

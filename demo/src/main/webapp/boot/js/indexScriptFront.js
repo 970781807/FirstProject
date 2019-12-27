@@ -1,6 +1,7 @@
 var DATA = null;
-
+var Xhref = null;
 function apps(a, b) {//a为href b为方式 ：0-显示 1-remove 2-reseton
+    Xhref = a;
     if (DATA === null) {
         upDATA(a, b);
     } else {
@@ -10,9 +11,23 @@ function apps(a, b) {//a为href b为方式 ：0-显示 1-remove 2-reseton
 
 }
 
+function logout() {
+    $.ajax({
+        url: Xhref + "/user/logout",
+        type: "post",
+        dataType: "json",
+        success: function (data) {
+            if (data.code == 200) {
+                alert("已退出登录!!!");
+                //刷新页面
+                window.location.reload();
+            }
+        }
+    })
+}
 function upDATA(a, b) {
     $.ajax({
-        url: a + "/app/showAll?find=AppHOME",
+        url: a + "/app/showAll",
         type: "post",
         datatype: "json",
         success: function (data) {

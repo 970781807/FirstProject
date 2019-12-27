@@ -5,7 +5,7 @@ import com.zz.demo.entity.App;
 import java.util.List;
 
 public interface AppDao {
-    List<App> showAll();
+    List<App> showAll(String userid);
 
     void remove(int... id);//移到回收站
 

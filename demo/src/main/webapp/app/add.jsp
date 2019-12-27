@@ -40,6 +40,7 @@
                         <option value="0">开发中</option>
                         <option value="2">停用</option>
                         <option value="3">维护</option>
+                        <option value="5"></option>
                     </select>
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6 col-sm-6 col-xs-6">

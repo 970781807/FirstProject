@@ -24,8 +24,12 @@
                type,
                careat_time,
                last_time
-        from apps
+        from apps a
+                 left join user_apps ua on a.id = ua.appid
+        where ua.userid = #{id}
+           or a.`status` = 5
     </select>
+
     <select id="showForType" resultMap="AppMap">
         select id,
         app_name,
